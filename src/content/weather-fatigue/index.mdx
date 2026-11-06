@@ -1,0 +1,140 @@
+---
+title: "Measuring Weather Fatigue"
+description: "A single viral post can catapult a local startup into global recognition overnight."
+author: ["Suchit Basineni", "Shivani Anand", "Elinor Tu"]
+editors: ["Jenny Williams","Nikhil Chinchalkar"]
+publishedDate: "2026-11-05"
+section: "Environment"
+image_path: "public/images/SP26/SmallBusinessBoom/Thumb.webp"
+layout: "image"
+order: 0
+thumbnailCredit: "Nikhil Chinchalkar"
+---
+<div className="text-center italic my-6 px-8">
+  "Beneath calm waters, colors and changes driven by climate change are transforming aquatic ecosystems."
+  <a href="https://abcnews.com/US/joplin-missouri-survivor-tornado-big-wall-rides-twister/story?id=13675466&utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">
+    ― Rance Junge, Joplin Resident
+  </a>
+</div>
+
+<p className="my-4">
+  May 22, 2011 — A cluster of storms are heading eastward. Meteorologists from the National Weather Service issue a tornado warning: “AT 514 PM CDT...NATIONAL WEATHER SERVICE DOPPLER RADAR INDICATED A TORNADO NEAR RIVERTON...OR 4 MILES NORTH OF BAXTER SPRINGS...MOVING NORTHEAST AT 40 MPH.” Two convective cells merge with the parent storm. Intense rotation develops, and a “catastrophic” tornado forms. An EF5 tornado, with over 200+ MPH winds, the most severe on the National Weather Service’s Enhanced Fujita scale.
+</p>
+
+<p className="my-4">
+  The Joplin Tornado on May 22, 2011, would become the nation’s deadliest tornado in 60 years. It caused $4 billion in damage to Joplin’s infrastructure. It claimed the lives of 158 residents and injured over 1,000 others. The 32 minutes of the tornado’s lifespan were horrific: employees of Joplin’s Pizza Hut watched their store manager get sucked out of the walk-in freezer in which they were sheltering. A nursing home was leveled, with 21 fatalities. Five patients at a local medical center died when power outages deactivated their ventilators. Was this avoidable, or was it an impending catastrophe that was going to happen regardless?
+</p>
+
+<p className="text-center italic font-semibold my-8">
+  Though before the storm… many disregarded the warnings.
+</p>
+
+<div className="text-center italic my-6 px-8">
+  “It started just like any other, normal day. We heard the tornado sirens, but we didn’t pay much attention to them since they always go off in bad weather. We have lived here since 1968 and have experienced the drills repeatedly. This one was eerily different.”
+
+  <p className="not-italic font-bold mt-2">
+    ― John Hunter, Joplin Tornado Survivor
+  </p>
+</div>
+
+<p className="my-4">
+  So, why didn’t Joplin residents take the ample warnings seriously?
+</p>
+
+<p className="my-4">
+  In the aftermath of the tornado, Joplin residents were frustrated by the perceived lack of a clear, urgent warning from the National Weather Service. The National Weather Service interviewed over 100 residents and found that the perceived frequency of warning sirens that particular day and in days prior had led many residents to be complacent and desensitized to the sirens. Forecasters and emergency planners, in response, were disappointed by the lack of urgency of Joplin residents in reacting to tornado sirens. To them, it was human error to blame for the tornado’s devastation.
+</p>
+
+<p className="my-4">
+  But was it? Weather fatigue is described as the public’s general dismissal and distrust of severe weather warnings, fueled by inaccuracies in those warnings in the past. It’s the cry wolf effect: if forecasters predict severe weather events, civilians prepare in response, yet nothing happens repeatedly, why should residents bother listening?
+</p>
+
+<p className="my-4">
+  That’s one side to the argument that the story of the Joplin Tornado of 2011 presents to us. The other, of course, suggests that severe weather warnings are, on average, more accurate than they aren’t. So, the overarching question is: are severe weather warnings usually followed by those severe weather events? The answer could mitigate the confusion that weather fatigue has caused in incidents like Joplin, support pre-emergency infrastructure, and save lives. To answer it, we turn to data.
+</p>
+
+### When a Warning Goes Out, What Actually Happens?
+
+<p className="my-4">
+  To get a rough geographic scope of the United States, we inspected the data of the following cities: Albany, NY; Binghamton, NY; Boston, MA; Buffalo, NY; Columbia, SC; Wichita, KS; and Oklahoma City, OK. A warning is considered verified when a storm report is inside the warning polygon and occurs before the warning expires.
+</p>
+
+<p className="my-4">
+  The graphic shows a significantly higher severe thunderstorm verification rate compared to tornadoes, which can be tied to easier storm detection for severe thunderstorms than tornadoes. But what’s more shocking is the fact that only one out of every four tornado warnings is verified. This extremely low verification rate of tornadoes is a byproduct of the National Weather Service (NWS) “erring on the side of caution”, but this is a clear indicator as to why areas often disregard tornado warnings. What’s the point in preparing for a possible tornado if, overwhelmingly, the warnings are fake?
+</p>
+
+### Unwarned vs. Warned
+
+<p className="my-4">
+  Looking at storm reports and how many storms go unwarned, when they should have actually been warned. Following is a dashboard that includes a set of 200,000 storm reports from weather forecast offices (WFOs) all across the country.
+</p>
+
+<p className="my-4">
+  From the nearly 200,000 reports across 114 WFOs, 115,924 were verified by warnings, and the remaining 84,076 were unwarned. An initial trend was the higher concentration of reports in higher population centers, which applied to warned and unwarned storms. Another trend can be seen by looking at the warned and unwarned points separated: there are unwarned storms scattered evenly all across the whole country, but very few storms that were actually warned in the west.
+</p>
+
+### Accuracy Varies Dramatically by Location
+
+<p className="my-4">
+  Verification rates over WFOs vary greatly. Factors like population density, meteorologist staffing, radar availability, and storm frequency all play a role. WFO verification rates range from less than 10% to over 70%.
+</p>
+
+<p className="my-4">
+  On first glance, the lowest verification offices are in the western United States. We can also see that many East Coast WFOs have much higher verification rates. These lower verification rates can be attributed to low population density, a lack of storm reports, and large warning polygons. For example, the verification area of a warning is calculated by taking the coverage of local storm reports over a warning. A local storm report verifies for an area within a 15 km radius. Regardless of various external factors, low verification rates can prompt many to disregard warnings due to them being seemingly ineffective.
+</p>
+
+### Earlier Warnings, More False Alarms
+
+<p className="my-4">
+  Another statistic is lead time, a measurement of how many minutes before an event (report) a warning was issued. This data also only looks at the lead times before verified warnings as well.
+</p>
+
+<p className="my-4">
+  From the data, we can see that the median lead time warning was approximately 12 minutes for severe thunderstorm warnings and 7 minutes for tornado warnings. Around 30% of the verified warnings occurred with less than five minutes of lead time, too. Longer lead times allow individuals to prepare for the incoming events, but having too long a lead time actually increases the number of fatalities compared to if there was no warning. On average, lead times of less than 15 minutes will reduce fatalities. This metric does depend on the circumstances, as a few severe thunderstorm warnings had a lead time of over an hour due to their destructiveness.
+</p>
+
+### False Alarms Don't Come Alone
+
+<p className="my-4">
+  Tracking back to the eight WFOs we looked at initially, we quantified the longest streaks of unverified warnings. Tracking consecutive false alarms could be the root cause of the fatigue in these areas. The average streaks and false alarm rates per WFO were also calculated.
+</p>
+
+<p className="my-4">
+  From this data, it could be attributed to the “cry wolf” effect, where, after so many false alarms, people truly do not respond to warnings or take extended periods of time to do so. We can see that Oklahoma City hit 16 false alarms in a row, which is extremely dangerous in one of the most tornado-prone parts of the country.
+</p>
+
+### Are Warnings Getting Better?
+
+<p className="my-4">
+  Next, looking at the verification rates of the U.S. as a whole from 2008 to 2025, we can see various fluctuations in the accuracy rates over the years.
+</p>
+
+<p className="my-4">
+  From 2008 to 2025, there was an increase of nearly 20% in the verification rate for thunderstorms, but there was an outlier of a drop of 20% in 2023. Tornado verification rates have stayed extremely volatile. It has not displayed any change in accuracy. Over the 17 years, the average tornado verification rate was only 22.3%. With such a low verification rate, it verifies what many of the residents of Joplin felt in 2011 with the storms prior. It really boils down to human psychology, and when warnings don't verify, there is little incentive for many residents to heed warnings.
+</p>
+
+<p className="my-4">
+  365 x 17
+</p>
+
+<p className="my-4">
+  Next, you can look at your respective forecast office and investigate the warning days and the number of verified and unverified warnings on a given day from 2008 to 2025. Blue represents verified, and red represents unverified.
+</p>
+
+### Warning Fatigue: The Social Factors
+
+<p className="my-4">
+  The different ways of warning communication are only one barrier to accurate information reaching people in time. How warnings are received and specifically by whom is something that this analysis didn’t fully cover. But this is the root problem that drives all of these statistics.
+</p>
+
+<p className="my-4">
+  Take four different ways in which warnings get disseminated. A tornado warning can be delivered through NOAA weather radios, a smartphone WEA alert, a television broadcast, and a siren. These four methods are significantly different from each other. Research has suggested that people woken up by a siren in the middle of the night are much less likely to take action compared to those who receive a personal alert. Smartphone alerts have their drawback as they need to be connected to the internet, and the resident has access to a device. Many of the rural communities, the same WFOs that have extremely low verification rates, are the least served by these warning systems. Oftentimes, they are more vulnerable to severe weather and can closely align with socioeconomic factors, too.
+</p>
+
+<p className="my-4">
+  Another example is the 2023 Hawaii wildfires. Maui had warning sirens for tsunamis that were pointed towards the ocean, but they too were never activated during the fire. Many residents who may have evacuated had the sirens turned on, received essentially no alert of the fires until the fire was dangerously close to their homes. Though well forecasted, emergency management failed to serve many of the residents, ultimately causing the deaths of over 100 people. Both weather fatigue and warning failure go together. Too many warnings can reduce trust, but a lack of warnings can significantly harm populations. This does lead to the point of why WFOs overdo warnings. In many of these situations is better to be safe than sorry, but it is a fine line to tread.
+</p>
+
+<p className="my-4">
+  Regardless of the data, these trends are notable, and the low warning verification rates line up with many of the ways people do not receive weather warnings, and who are the most vulnerable.
+</p>
