@@ -266,7 +266,7 @@ const teamMembers: TeamMember[] = [
         major: "Statistical Science",
         image: "/team/FA26/webp/Shivani_Anand.webp",
         color: "bg-[#E5E7FF]",
-        bio: ""
+        bio: "She hiked to an elevation of 17,598 feet in the Himalayas."
     },
     {
         name: "Roma Rangaswamy",
@@ -311,7 +311,7 @@ const teamMembers: TeamMember[] = [
         major: "Earth and Atmospheric Science",
         image: "/team/FA26/webp/Himashi_Balasuriya.webp",
         color: "bg-[#E5E7FF]",
-        bio: ""
+        bio: "She has traveled to 13 states."
     },
     // {
     //     name: "Chris Jeong",
